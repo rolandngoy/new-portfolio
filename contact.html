@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Contact | Roland</title>
+  <!-- PLACEHOLDER: add your last name to the title and description if you want it in search results -->
+  <meta name="description" content="Contact Roland about internships, roles, or collaborations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== HEADER (keep identical on every page) ===== -->
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="brand-dot" aria-hidden="true"></span>Roland</a>
+      <nav aria-label="Main">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="casestudy.html">Case Study</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section">
+      <div class="wrap two-col">
+        <div class="stack">
+          <p class="label">Contact</p>
+          <h1>Let's talk.</h1>
+          <p class="hero-lede">Hiring for an internship or role, want to collaborate, or have feedback on TrackAI? Send me a message and I'll get back to you.</p>
+          <ul class="list-plain">
+            <li><strong>GitHub:</strong> <a href="https://github.com/rolandngoy">github.com/rolandngoy</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/roland-ngoy-5319532a7/">linkedin.com/in/roland-ngoy-5319532a7</a></li>
+          </ul>
+        </div>
+
+        <!-- FORMSPREE SETUP:
+             1. Sign up free at https://formspree.io
+             2. Click "New Form", name it "Portfolio Contact", and copy its ID (looks like xyzabcd)
+             3. Replace YOUR_FORM_ID below with that ID
+             Messages will then arrive in your email inbox. -->
+        <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="reason">Reason</label>
+            <select id="reason" name="reason">
+              <option>Internship or job opportunity</option>
+              <option>Collaboration</option>
+              <option>TrackAI feedback</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <!-- Sets the subject line of the email Formspree sends you -->
+          <input type="hidden" name="_subject" value="New message from your portfolio">
+          <!-- Spam trap: real visitors never see or fill this -->
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <div><button class="btn btn-primary" type="submit">Send message</button></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER (keep identical on every page) ===== -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; 2026 Roland</span>
+      <!-- PLACEHOLDER: replace with your real profile links -->
+      <ul class="footer-links">
+        <li><a href="https://github.com/rolandngoy">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/roland-ngoy-5319532a7/">LinkedIn</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

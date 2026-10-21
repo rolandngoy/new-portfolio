@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>TrackAI Case Study | Roland</title>
+  <!-- PLACEHOLDER: add your last name to the title and description if you want it in search results -->
+  <meta name="description" content="How Roland designed and built TrackAI, an app that makes college students' lives easier.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== HEADER (keep identical on every page) ===== -->
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="brand-dot" aria-hidden="true"></span>Roland</a>
+      <nav aria-label="Main">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="casestudy.html" aria-current="page">Case Study</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="cs-hero">
+      <div class="wrap stack">
+        <p class="label">Case study &middot; <a href="work.html">Back to all work</a></p>
+        <h1>TrackAI</h1>
+        <p class="tagline">Understand Today. <span class="mark">Ace Tomorrow.</span></p>
+        <p class="hero-lede">How I designed and built an app that brings a college student's classes, assignments, grades, and study tools into one place.</p>
+
+        <figure class="shot">
+          <div class="logo-panel wide"><img src="images/trackai-logo.png" alt="TrackAI logo: a graduation cap over a play-button document, with the tagline Understand Today. Ace Tomorrow." width="806" height="714"></div>
+        </figure>
+
+        <dl class="cs-facts">
+          <div><dt>My role</dt><dd>Designer &amp; developer</dd></div>
+          <div><dt>Platforms</dt><dd>Web, iOS, Android</dd></div>
+          <div><dt>Tools</dt><dd>React Native, Expo, GitHub Actions</dd></div>
+          <div><dt>Timeline</dt><dd>May 2026 &ndash; Present</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===== THE PROBLEM ===== -->
+    <section class="section">
+      <div class="wrap cs-body">
+        <h2>The Problem</h2>
+        <div class="stack">
+          <p>College students juggle assignments, due dates, grades, and study material across a pile of disconnected apps and websites. Important things slip through the cracks, and most tools only remind you that a test is coming. They don't help you prepare for it.</p>
+          <p>Professors face the same problem from the other side: rosters, grading, and class communication all live in different places.</p>
+          <!-- PLACEHOLDER: add something you heard from real students, e.g. a survey result or interview quote -->
+          <p><span class="todo">Optional: add what you learned from talking to students.</span></p>
+          <blockquote class="quote">Students needed one place to track their classes and real help learning the material.</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== THE SOLUTION ===== -->
+    <section class="section">
+      <div class="wrap cs-body">
+        <h2>The Solution</h2>
+        <div class="stack">
+          <p>TrackAI is one app with two experiences. During onboarding, users choose <strong>student</strong> or <strong>professor</strong>, and each gets a dashboard built around how they actually work.</p>
+          <ul class="list-plain">
+            <li><strong>For students:</strong> join a class with a code, track assignments and grades, and talk with classmates in class chat.</li>
+            <li><strong>For professors:</strong> create classes, share join codes, and manage a gradebook.</li>
+            <li><strong>AI study tools:</strong> upload notes or readings and get flashcards, summaries, and study notes back.</li>
+            <li><strong>AI Help:</strong> a chat for questions about the course material.</li>
+            <li><strong>Built for Washington schools:</strong> a directory of 50+ colleges and universities, with Northwest University first.</li>
+          </ul>
+
+          <div class="media-grid two">
+            <figure class="shot">
+              <img class="phone-shot" src="images/student-dashboard.png" alt="TrackAI student dashboard showing class, assignment, and due counts, a join-code field, and the bottom tabs: Activity, Chat, Assign, Upload, and AI Help" width="550" height="1092">
+              <figcaption>Student dashboard</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section class="section">
+      <div class="wrap stack">
+        <p class="label">Process</p>
+        <h2>How I built it</h2>
+        <p>I ran TrackAI the way I learned to run team projects: in short Agile sprints, each ending with something working I could test.</p>
+        <ol class="steps">
+          <li>
+            <h3>Research &amp; plan</h3>
+            <p>Mapped the student and professor journeys and where they connect: classes, assignments, and grades.</p>
+          </li>
+          <li>
+            <h3>Design the screens</h3>
+            <p>Designed onboarding, role selection, and separate dashboards so each user sees only what they need.</p>
+          </li>
+          <li>
+            <h3>Build the features</h3>
+            <p>Built class management, assignment tracking, the gradebook, class chat, and the AI upload tools.</p>
+          </li>
+          <li>
+            <h3>Test &amp; ship</h3>
+            <p>Fixed bugs found in real use and set up automated builds for the web, the App Store, and Google Play.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== RESULTS & LESSONS ===== -->
+    <section class="section">
+      <div class="wrap cs-body">
+        <h2>Results &amp; Lessons</h2>
+        <div class="stack">
+          <p>TrackAI now has a complete working prototype covering onboarding, both dashboards, class management, assignments, the gradebook, AI study tools, and chat.</p>
+          <!-- PLACEHOLDER: add real results, e.g. number of testers, feedback, or launch status -->
+          <p><span class="todo">Add results: testers, feedback, or launch status.</span></p>
+          <p><strong>Test like a real user.</strong> A data-saving bug only appeared between sessions. Finding it taught me to test the app the way a student uses it over a full week, not just in one sitting.</p>
+          <p><strong>Know who each feature is for.</strong> Designing for two roles meant every feature had to answer one question before it got built: does a student need this, a professor, or both?</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="contact.html">Talk to me about TrackAI</a>
+            <a class="btn" href="work.html">Back to all work</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER (keep identical on every page) ===== -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; 2026 Roland</span>
+      <!-- PLACEHOLDER: replace with your real profile links -->
+      <ul class="footer-links">
+        <li><a href="https://github.com/rolandngoy">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/roland-ngoy-5319532a7/">LinkedIn</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
